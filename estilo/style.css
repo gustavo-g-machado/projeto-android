@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+    @font-face {
+        font-family: android;
+        src: url('idroid.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    body{
+        background-color: rgb(241, 213, 177);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0px;
+    }
+    header{
+        padding: 30px;
+        border: 50px;
+        margin: 0px;
+        outline-width: 30px;
+        background-image: linear-gradient(to bottom, #428546, #28BD2F);
+        background-color:#28BD2F;
+    }
+    nav{
+        color: white;
+        padding-left: 3px;
+        width: auto;
+        font-weight: bold;
+    }
+    nav > a{
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+        margin-left: auto;
+    }
+    nav > a:hover{
+        background-color: #428546;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        border-style: none;
+    }
+    main{
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    h1{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    h2{
+        font-family: 'android';
+    }
+    #assuntos{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: 50px;
+    }
+    
+    .dell{
+        background-image: linear-gradient(to right, #428546, #68ed6e5a);
+    }
+    .parc{
+        background-color: #5eb964c9;
+    }
+    #extra{
+            background-color: #7fee8564;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px rgba(44, 44, 44, 0.544);
+
+    }
+    #principal{
+        background-color: var(--cor4);
+        color: black;
+        padding: 10px;
+        margin: -10px -10px 0px -10px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    section > p{
+        text-align: center;
+    }
+    #final{
+        text-align: center;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+    footer > p{
+        margin: 0px;
+    }
