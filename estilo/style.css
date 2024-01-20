@@ -1,11 +1,6 @@
 @charset "UTF-8";
 
-    @font-face {
-        font-family: android;
-        src: url('idroid.otf') format('opentype');
-        font-weight: normal;
-        font-style: normal;
-    }
+    
 
     body{
         background-color: rgb(241, 213, 177);
@@ -57,7 +52,7 @@
         text-align: center;
     }
     h2{
-        font-family: 'android';
+        font-family: 'Android';
     }
     #assuntos{
         color: white;
